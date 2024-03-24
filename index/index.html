@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <p>Olá, seja bem-vindo!</p>
+            <h2>Banco Digital</h2>
+            <h2 id="userName"></h2>
+            <p id="saldo">R$ <span id="balanceTxt"></span></p>
+            <p>Crédito: <span id="creditTxt"></span></p>
+            <input type="number" id="valuetInpt" value="0">
+            <div id="btn-display">
+                <button onclick="depositar()">Depósito</button>
+                <button onclick="sacar()">Sacar</button>
+                <button onclick="transferir()">Transferência</button>
+                <button onclick="emprestimo()">Empréstimo</button>
+            </div>
+            <button id="btnLeave"><a href="../login/index.html">Sair</a></button>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

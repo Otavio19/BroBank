@@ -1,0 +1,75 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #19181F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form
+{
+    background-color: #1E1E26;
+    color: #67159C;
+    padding: 2rem 5rem;
+}
+
+.loginBox
+{
+    background-color: #1E1E26;
+    color: #969595;
+}
+
+.inptBox
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.loginBox h1
+{
+    color: #67159C;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.loginBox label
+{
+    font-size: 1.5rem;
+}
+
+.loginBox input
+{
+    font-size: 1.4rem;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid #67159C;
+    color: #fff;
+}
+
+.loginBox button
+{
+    padding: 0.5rem 2rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    background-color: #19181F;
+    border: 1px solid #67159C;
+    color: #969595;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.loginBox button:hover
+{
+    background-color: #67159C;
+    color: #19181F;
+}
